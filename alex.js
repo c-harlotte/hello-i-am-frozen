@@ -1,3 +1,5 @@
 const alex = "Hello my name is Alex and I'm smart";
 
-console.log(alex);
+module.exports = () => {
+  console.log(alex);
+}
